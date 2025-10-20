@@ -332,15 +332,4 @@ fastify.get('/health', async (request, reply) => {
     };
 });
 
-const start = async () => {
-    try {
-        await fastify.listen({ port: 5000, host: '0.0.0.0' });
-        console.log('API de Ranking rodando na porta 5000');
-        console.log('Acesse http://localhost:5000 para ver a documentação');
-    } catch (err) {
-        fastify.log.error(err);
-        process.exit(1);
-    }
-};
-
-start();
+export default fastify;
