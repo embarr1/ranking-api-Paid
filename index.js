@@ -9,7 +9,7 @@ async function getDiscordAvatar(userId) {
     try {
         const response = await fetch(`https://discord.com/api/v10/users/${userId}`, {
             headers: {
-                'Authorization': `Bot MTQyODg1NTA0MTU2MDk0MDU3NQ.Gkng7H.FID5_h6SO8xd_6-wTAZlTuesYTPXWLrJc7SNm4`
+                'Authorization': `Bot MTQyODg1NTA0MTU2MDk0MDU3NQ.GnND9g.JUoXchr6FrwyPILz81dax-ctGMfah-NtZkQxzY`
             }
         });
         
